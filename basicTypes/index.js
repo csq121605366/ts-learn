@@ -31,3 +31,4 @@ console.log(tuplex[0].substr[1]);
 // console.log(tuplex[1].substr[1]); //错误，number类型没有substr方法 即使语法错误也会产出
 //当访问一个越界的元素，会使用联合类型替代
 tuplex[2] = "csq";
+// tuplex[3] = true;//错误，原始声明中没有boolean类型
